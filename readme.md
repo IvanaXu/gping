@@ -21,6 +21,16 @@ Tested on Windows, Ubuntu and OS X. After installation just run:
 
 `gping [yourhost]`
 
+Tested with Python:
+
+```python
+# Test_gping.py
+from gping import pinger
+pinger.run()
+```
+
+`python3 Test_gping.py [yourhost]`
+
 If you don't give a host then it pings google.
 
 ## Why?
